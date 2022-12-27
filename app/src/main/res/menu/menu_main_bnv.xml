@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_all"
+        android:enabled="true"
+        android:title="All contacts"
+        android:icon="@drawable/ic_people" />
+
+    <item
+        android:id="@+id/item_favorites"
+        android:enabled="true"
+        android:title="Favorites"
+        android:icon="@drawable/ic_star_outline" />
+</menu>
