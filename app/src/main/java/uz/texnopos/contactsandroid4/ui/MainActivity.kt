@@ -24,12 +24,12 @@ class MainActivity : AppCompatActivity() {
                 when (item.itemId) {
                     R.id.item_all -> {
                         supportFragmentManager.beginTransaction()
-                            .add(R.id.fragment_container, AllContactsFragment())
+                            .replace(R.id.fragment_container, AllContactsFragment())
                             .commit()
                     }
                     R.id.item_favorites -> {
                         supportFragmentManager.beginTransaction()
-                            .add(R.id.fragment_container, FavoriteContactsFragment())
+                            .replace(R.id.fragment_container, FavoriteContactsFragment())
                             .commit()
                     }
                 }
